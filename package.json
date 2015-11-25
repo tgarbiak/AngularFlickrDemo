@@ -1,0 +1,20 @@
+{
+  "name": "ng-flickr",
+  "version": "1.0.0",
+  "description": "A page that shows pictures using flickr service",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tomasz Garbiak <tgarbiak+code@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "angular": "^1.4.8",
+    "angular-cookies": "^1.4.8"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-sourcemaps": "^1.6.0"
+  }
+}
