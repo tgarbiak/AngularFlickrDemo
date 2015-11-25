@@ -4,7 +4,7 @@
   "description": "A page that shows pictures using flickr service",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "protractor test-conf.js"
   },
   "author": "Tomasz Garbiak <tgarbiak+code@gmail.com>",
   "license": "UNLICENSED",
