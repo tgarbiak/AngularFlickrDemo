@@ -25,6 +25,9 @@
     },
     "angularjs/angular-cookies.d.ts": {
       "commit": "b2d17b5dad042e293e77d09f2a30d281325cb606"
+    },
+    "jasmine/jasmine.d.ts": {
+      "commit": "7a3d6944036902996b87981e6150900952b35628"
     }
   }
 }

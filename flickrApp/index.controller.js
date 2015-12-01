@@ -40,7 +40,7 @@
                     $scope.data.loading = false;
                     $scope.data.feed = mergeFeedWithFavourites(successResponse.data.items);
                 },
-                function(errorResponse) {
+                function() {
                     $scope.data.loading = false;
                     $scope.data.error = true;
                 }
