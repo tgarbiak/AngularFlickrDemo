@@ -1,5 +1,5 @@
 {
-  "name": "ng-flickr",
+  "name": "ng-flickr-demo",
   "version": "1.0.0",
   "description": "A page that shows pictures using flickr service",
   "main": "index.html",
