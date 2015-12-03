@@ -14,7 +14,7 @@ h1 {
 }
 
 section {
-    max-width: 85%;
+    max-width: 55rem;
     margin: 0 auto;
 }
 
@@ -30,12 +30,28 @@ ul.feed > li {
 
 ul.feed > li > a > img {
     border: 2px solid transparent;
+    height: 140px;
+    width: auto;
 }
 
 ul.feed > li > a:hover > img {
-    border: 2px solid #ccc;
+    border: 2px solid #fff;
+    box-shadow: 0 0 2px #000;
+}
+
+ul.feed > li > a:active > img {
+    animation: 0.2s linear 0s 1 alternate wobble;
+    box-shadow: 0 0 1px #393;
+}
+
+@-moz-keyframes wobble {
+    from { height: 140px; } to { height: 138px; }
 }
 
 ul.feed > li > a.selected > img {
-    border: 2px solid #444;
+    box-shadow: 0 0 4px #393;
+}
+
+ul.feed > li > a.selected:hover > img {
+    box-shadow: 0 0 8px #393;
 }
