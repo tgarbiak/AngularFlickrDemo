@@ -2,15 +2,16 @@ body {
     font-family: Calibri, "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding: 0;
     margin: 0;
+    background: #F9F9F9;
 }
 
 h1 {
-    background: #000;
     margin: 0;
-    padding: 8px 0;
-    color: #fff;
+    padding: 3rem 0 2rem;
+    color: #333;
     font-size: 1.5rem;
     text-align: center;
+    font-weight: 200;
 }
 
 section {
@@ -26,22 +27,18 @@ ul.feed > li {
     list-style: none;
     margin: 2px;
     display: inline-block;
+    padding: 0.5rem;
 }
 
 ul.feed > li > a > img {
-    border: 2px solid transparent;
+    border: 2px solid #fff;
     height: 140px;
     width: auto;
 }
 
-ul.feed > li > a:hover > img {
-    border: 2px solid #fff;
-    box-shadow: 0 0 2px #000;
-}
-
 ul.feed > li > a:active > img {
     animation: 0.2s linear 0s 1 alternate wobble;
-    box-shadow: 0 0 1px #393;
+    box-shadow: 0 0 1px #82C7FD;
 }
 
 @-moz-keyframes wobble {
@@ -49,9 +46,10 @@ ul.feed > li > a:active > img {
 }
 
 ul.feed > li > a.selected > img {
-    box-shadow: 0 0 4px #393;
+    border: 2px solid #fff;
+    box-shadow: 0 0 12px hsla(0, 0%, 0%, 0.4);
 }
 
 ul.feed > li > a.selected:hover > img {
-    box-shadow: 0 0 8px #393;
+    box-shadow: 0 0 8px hsla(0, 0%, 0%, 0.2);
 }
